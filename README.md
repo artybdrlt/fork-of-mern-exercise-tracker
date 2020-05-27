@@ -1,4 +1,11 @@
 This project is simply a fork of this tutorial made by Beau Carnes. It can be found here: https://github.com/beaucarnes/mern-exercise-tracker-mongodb
+<br>
+I have followed this tutorial and I have added just a tiny extra feature: the possibility to edit a user. In order to do so, I had to implement extra routes for <u>users.js</u> though they were the same as the ones for exercises.js. 
+There are still one bug to be fixed: 
+<br>
+
+➡ When editing the username of an user, there shouldn't be a possibility to change the user which produces a bug. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

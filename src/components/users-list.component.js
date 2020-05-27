@@ -6,7 +6,7 @@ import axios from 'axios';
 const User = props => (
   <tr>
     <td>{props.user.username}</td>
-    <td>
+    <td className="text-right">
       <Link to={"/editUser/"+props.user._id}>edit</Link> | <a href="#" onClick={() => { props.deleteUser(props.user._id) }}>delete</a>
     </td>
   </tr>
